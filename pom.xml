@@ -101,6 +101,10 @@
             <artifactId>mysql</artifactId>
             <scope>test</scope>
             </dependency>
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+	    </dependency>
 
         <!-- Dependencia OBLIGATORIA para correr tests (mvn test) -->
         <dependency>
